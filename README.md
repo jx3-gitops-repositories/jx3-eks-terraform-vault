@@ -1,4 +1,4 @@
-# Jenkins X 3.x GitOps Repository for GKE, Terraform and Vault
+# Jenkins X 3.x GitOps Repository for EKS, Terraform and Vault
 
 This git repository setups the cloud resources required to run Jenkins X on EKS via Terraform and then sets up Jenkins X with Vault.
 
