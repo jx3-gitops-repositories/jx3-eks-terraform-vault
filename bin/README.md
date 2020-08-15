@@ -12,14 +12,6 @@ These instructions assume you have cloned this git repository and run `cd` into 
 ls -al bin/README.md
 ```
 
-You will also need to configure which GCP project you wish to use for your infrastructure. You can do this via an environment variable:
-
-```bash 
-export PROJECT_ID="my-gcp-project"
-./bin/configure.sh
-```
-
-
 ### Setup your resources
 
 Run the `./bin/apply.sh` script which effectively invokes:
