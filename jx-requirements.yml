@@ -16,8 +16,8 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   project:  ""
-  provider: gke
-  registry: gcr.io
+  provider: eks
+  registry: ecr.io
   zone: ""
 environments:
 - key: dev
