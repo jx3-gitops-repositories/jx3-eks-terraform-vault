@@ -1,11 +1,11 @@
 apiVersion: kpt.dev/v1alpha1
 kind: Kptfile
 metadata:
-    name: src
+  name: src
 upstream:
-    type: git
-    git:
-        commit: 88d99174b0e87b424bb9cdfe27f73fff9d4579fe
-        repo: https://github.com/jenkins-x/jx3-gitops-template
-        directory: /src
-        ref: master
+  type: git
+  git:
+    commit: 0c647722218009191189263bd86720e8aa25be65
+    repo: https://github.com/jenkins-x/jx3-gitops-template
+    directory: /src
+    ref: master
