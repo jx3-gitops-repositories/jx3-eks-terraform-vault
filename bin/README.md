@@ -4,7 +4,8 @@ These instructions will walk you through setting up Jenkins X with Terraform
 
 ### Prerequisites
 
-You will need to make sure you have [installed the terraform binary](https://learn.hashicorp.com/tutorials/terraform/install-cli) into your `$PATH`.
+Check the [readme](https://github.com/jenkins-x/terraform-aws-eks-jx#prerequisites) section of the module for a list of
+pre-requisites.
 
 These instructions assume you have cloned this git repository and run `cd` into the clone directory so that you can see this `README.md` file by running:
 
@@ -25,10 +26,14 @@ When prompted by terraform enter `yes` to proceed if you are happy with the plan
 
 Terraform will then setup your resources. 
 
-Now make sure you git commit any modified files...
+:warning: Note: You may need to set `AWS_PROFILE` and `AWS_REGION` before executing the `apply.sh` script. 
+
+Examples of advanced usage of the module can be found [here](https://github.com/jenkins-x/terraform-aws-eks-jx/tree/master/examples). 
+
+Now make sure you commit your changes to git ...
 
 ```bash 
-git commit -a -m "fix: configured project"
+git commit -a -m "fix: configure project"
 git push
 ```
 
