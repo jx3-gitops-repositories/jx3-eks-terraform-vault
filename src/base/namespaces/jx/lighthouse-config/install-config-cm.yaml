@@ -4,4 +4,4 @@ metadata:
   name: jx-install-config
   namespace: jx
 data:
-  kubeProvider: gke
+  kubeProvider: eks
