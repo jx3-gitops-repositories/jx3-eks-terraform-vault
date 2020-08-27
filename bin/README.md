@@ -37,6 +37,11 @@ git commit -a -m "fix: configure project"
 git push
 ```
 
+:warning: Note: Set the vault related environment variables:
+```bash
+export VAULT_AWS_ACCESS_KEY_ID=$(terraform output vault_user_id)
+export VAULT_AWS_SECRET_ACCESS_KEY=$(terraform output vault_user_secret)
+```
 
 ## Install the git operator
 
